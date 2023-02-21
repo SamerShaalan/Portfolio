@@ -200,7 +200,7 @@ h4 {
 }
 
 .skills {
-	background-color: var(--bgColor-2);
+	background-color: var(--bgColor-1);
 	padding: 2rem var(--padding);
 	display: flex;
 	align-items: center;
@@ -240,7 +240,7 @@ h4 {
 
 footer {
 	padding: 2rem var(--padding);
-	background-color: var(--bgColor-1);
+	background-color: var(--bgColor-2);
 }
 
 footer .content-footer {
@@ -303,8 +303,7 @@ footer .content-footer p {
 /*------------------------------------------------------------
 *----------------------MEDIA QUERIES--------------------------
 ------------------------------------------------------------*/
-
-/*@media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
 	:root {
 		--padding: 1.5rem;
 	}
@@ -610,95 +609,87 @@ footer .content-footer p {
 		height: auto;
 		width: 100%;
 	}
-}
 
-html {
-	font-size: 13px;
-}
+	html {
+		font-size: 13px;
+	}
 
-nav {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 150px;
-	padding-top: 0;
-	background-color: var(--bgColor-1);
-	border-bottom: 1px solid var(--bgColor-2);
-	z-index: 100;
-}
+	nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 150px;
+		padding-top: 0;
+		background-color: var(--bgColor-1);
+		border-bottom: 1px solid var(--bgColor-2);
+		z-index: 100;
+	}
 
-nav > a {
-	display: none;
-}
+	nav > a {
+		display: none;
+	}
 
-nav ul {
-	display: none;
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 50vw;
-	height: 100vh;
-	background-color: var(--bgColor-2);
-}
+	nav ul {
+		display: none;
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 50vw;
+		height: 100vh;
+		background-color: var(--bgColor-2);
+	}
 
-nav ul.is-active {
-	display: block;
-}
+	nav ul.is-active {
+		display: block;
+	}
 
-nav ul li {
-	display: block;
-	text-align: center;
-	margin: 50px;
-}
+	nav ul li {
+		display: block;
+		text-align: center;
+		margin: 50px;
+	}
 
-.container-texts {
-	bottom: 0em;
-}
+	.container-texts {
+		bottom: 0em;
+	}
 
-h3 {
-	margin-bottom: 70;
-}
-#menu {
-	display: block;
-}
+	h3 {
+		margin-bottom: 70;
+	}
+	#menu {
+		display: block;
+	}
 
-/*.about .container-images {
-	display: none;
-}*/
+	.about .container-texts {
+		width: 60%;
+	}
 
-.about .container-texts {
-	width: 60%;
-}
+	.box {
+		gap: 50px;
+		flex-wrap: wrap;
+	}
 
-.box {
-	gap: 50px;
-	flex-wrap: wrap;
-}
+	.skills .container-skills {
+		width: 60%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
 
-/*.skills .container-images {
-	display: none;
-}*/
+	.skills .container-skills .content-skills {
+		margin-top: 2rem;
+		align-items: center;
+		justify-content: center;
+	}
 
-.skills .container-skills {
-	width: 60%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
+	.skill {
+		width: 80px;
+		height: 80px;
+	}
 
-.skills .container-skills .content-skills {
-	margin-top: 2rem;
-	align-items: center;
-	justify-content: center;
-}
-
-.skill {
-	width: 80px;
-	height: 80px;
-}
-
-footer .content-footer {
-	width: 100%;
+	footer .content-footer {
+		width: 100%;
+	}
 }
