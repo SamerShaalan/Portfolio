@@ -124,14 +124,14 @@ h4 {
 	letter-spacing: 0.12rem;
 }
 
-.home .container-images img {
+/*.home .container-images img {
 	position: absolute;
 	bottom: 0;
 	height: 100%;
 	left: 50%;
 	transform: translateX(-50%);
 	transition: bottom 1s, left 1s;
-}
+}*/
 
 /*------------------------------------------------------------
 *----------------------ABOUT SECTION --------------------------
